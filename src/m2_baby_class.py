@@ -106,6 +106,9 @@ class Baby(object):
             print('Baby', self.name, 'is sleeping')
         elif self.hours == 2:
             print('Baby', self.name, 'is awake.  Time for food.')
+        elif self.hours >= 3:
+            print('Baby', self.name, 'is CRYING uncontrollably!  Feed the Baby!')
+
         
 
 
